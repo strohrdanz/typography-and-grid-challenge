@@ -56,6 +56,9 @@ small {
 a {
   color: blue; }
 
+abbr {
+  font-size: 85%; }
+
 address {
   display: inline; }
 
@@ -89,7 +92,7 @@ sub {
   bottom: -0.25em; }
 
 /* ============================================================================================== */
-/* Demo Styles                                                                                    */
+/* Demo Styles - Do most, if not all, of your work here.                                          */
 /* ============================================================================================== */
 article.container {
   margin: 2em auto;
@@ -102,6 +105,9 @@ article header {
   margin-bottom: 1.5em; }
 
 figure {
+  margin-bottom: 1.5em; }
+
+aside {
   margin-bottom: 1.5em; }
 
 figure img {
