@@ -1,66 +1,84 @@
 /* ============================================================================================== */
 /* Reset Styles                                                                                   */
 /* ============================================================================================== */
+
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 html {
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+      -ms-text-size-adjust: 100%;
+}
 
 html, body {
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 body {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  display: block; }
+  display: block;
+}
 
 img {
-  border: 0; }
+  border: 0;
+}
 
 figure {
-  margin: 0; }
+  margin: 0;
+}
 
 /* ============================================================================================== */
 /* Base Typographic Styles                                                                        */
 /* ============================================================================================== */
+
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 p {
   line-height: 1.5;
   margin: 0 0 1.5em 0;
   -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; }
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 cite {
-  font-style: normal; }
+  font-style: normal;
+}
 
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 a {
-  color: blue; }
+  color: blue;
+}
 
 abbr {
-  font-size: 85%; }
+  font-size: 85%;
+}
 
 address {
-  display: inline; }
+  display: inline;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -69,53 +87,57 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: bold;
   line-height: 1;
-  text-rendering: optimizelegibility; }
+  text-rendering: optimizelegibility;
+}
 
 ul, ol {
   padding: 0;
-  margin: 0 0 1.5em 1em; }
+  margin: 0 0 1.5em 1em;
+}
 
 li {
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* ============================================================================================== */
 /* Demo Styles - Do most, if not all, of your work here.                                          */
 /* ============================================================================================== */
-article.container {
-  margin: 2em auto;
-  padding: 0 1em;
-  width: 100%;
-  max-width: 600px;
-  position: relative; }
 
 article header {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
 figure {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
 aside {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
 figure img {
-  width: 100%;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 article footer p {
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+}
 
 /* Helper Classes =============================================================================== */
 
