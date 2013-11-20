@@ -22,7 +22,7 @@ Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javastev
 * [Thinking With Type &mdash; Type Classification](http://www.thinkingwithtype.com/contents/letter/#Type_Classification)
 
 ### Practice
-* [Shape Type: A Letter Shaping Game](http://shape.method.ac/
+* [Shape Type: A Letter Shaping Game](http://shape.method.ac/)
 
 ### Exercise 1
 The [supplied PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test.pdf?raw=true) has the string hamburgefontsiv written on it in several typefaces, but each page is missing a different letter. For each page use the existing characters as a reference to draw the one that is missing. An [answer key PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test-answers.pdf?raw=true) has also been supplied, which can be referred to after the exercise in order to check performance.
@@ -49,4 +49,4 @@ Choose two words and create a typographic treatment for them that visually reinf
 * [Google Fonts](http://www.google.com/fonts)
 
 ### Exercise 3
-Using the starter code in this repo, which contains typical article markup, implement a set of type styles that demonstrates the skills you’ve learned today. If time allows please go beyond just choosing typefaces and a hierarchy and create a fully designed article experience that could be carried across other articles if necessary. Apply the system to a second article to demonstrate that it works properly.
+Using the starter code in this repo, which contains typical article markup, implement a set of type styles that demonstrates the skills you’ve learned. If possible you should go beyond just choosing typefaces and a hierarchy and develop a grid system for aligning text and media. Apply the system to a second article to demonstrate that it works properly.
