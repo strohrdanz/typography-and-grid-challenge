@@ -1,8 +1,8 @@
 # Typography & Grid Challenge
 
--------------------------------------------------------
+***
 This is a work in progress, based off of [an older repo](https://github.com/javasteve99/startup-institute-type-files).
--------------------------------------------------------
+***
 
 This is a set of starter files and resources for the Typography ESD at [Startup Institute Boston](http://startupinstitute.com/) and the Typography & Grid Challenge in the [AUX](http://www.freshtilledsoil.com/aux/) program at Fresh Tilled Soil.
 
