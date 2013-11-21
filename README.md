@@ -17,8 +17,12 @@ Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javastev
 ## Exercise 1
 The [supplied PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test.pdf?raw=true) has the string hamburgefontsiv written on it in several typefaces, but each page is missing a different letter. For each page use the existing characters as a reference to draw the one that is missing. An [answer key PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test-answers.pdf?raw=true) has also been supplied, which can be referred to after the exercise in order to check performance.
 
+Please photograph your work and place the images in the */submit-exercises* folder in this repo.
+
 ## Exercise 2
 Choose two words and create a typographic treatment for them that visually reinforces their meaning/relationship. Start by creating at least 5 different sketched compositions of the same word pair. Pick one sketch and use any graphics editor, or pen/pencil, to develop it into a more finished and polished composition.
+
+Please photograph your work and place the images in the */submit-exercises* folder in this repo.
 
 #### Required Reading for Exercise 3
 * [A List Apart &mdash; On Web Typography](http://alistapart.com/article/on-web-typography)
