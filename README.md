@@ -8,14 +8,6 @@ This is a set of starter files and resources for the Typography ESD at [Startup 
 
 Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javasteve99/typography-fundamentals).
 
-## Research Sources
-
-* [Thinking with Type](http://www.thinkingwithtype.com/)
-* [Hack Design](http://hackdesign.org/courses/)
-* [The Elements of Typography Style Applied to the Web](http://webtypography.net/)
-
-## Typography Lab
-
 ### Required Reading
 * [Thinking With Type &mdash; Anatomy](http://www.thinkingwithtype.com/contents/letter/#Anatomy)
 * [Thinking With Type &mdash; Size](http://www.thinkingwithtype.com/contents/letter/#Size)
@@ -24,10 +16,10 @@ Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javastev
 ### Practice
 * [Shape Type: A Letter Shaping Game](http://shape.method.ac/)
 
-### Exercise 1
+## Exercise 1
 The [supplied PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test.pdf?raw=true) has the string hamburgefontsiv written on it in several typefaces, but each page is missing a different letter. For each page use the existing characters as a reference to draw the one that is missing. An [answer key PDF](https://github.com/freshtilledsoil/typography-and-grid-challenge/blob/master/letter-test-answers.pdf?raw=true) has also been supplied, which can be referred to after the exercise in order to check performance.
 
-### Exercise 2
+## Exercise 2
 Choose two words and create a typographic treatment for them that visually reinforces their meaning/relationship. Start by creating at least 5 different sketched compositions of the same word pair. Pick one sketch and use any graphics editor, or pen/pencil, to develop it into a more finished and polished composition.
 
 ### Required Reading
@@ -48,5 +40,5 @@ Choose two words and create a typographic treatment for them that visually reinf
 * [Modular Scale](http://modularscale.com/)
 * [Google Fonts](http://www.google.com/fonts)
 
-### Exercise 3
+## Exercise 3
 Using the starter code in this repo, which contains typical article markup, implement a set of type styles that demonstrates the skills you’ve learned. If possible you should go beyond just choosing typefaces and a hierarchy and develop a grid system for aligning text and media. Apply the system to a second article to demonstrate that it works properly.
