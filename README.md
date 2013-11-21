@@ -53,4 +53,5 @@ Using the starter code in this repo, which contains typical article markup, impl
 * You must apply the system to a second article to demonstrate that it works properly. You will likely have to rewrite the markup of whatever article you choose to match the demo markup you've been supplied with.
 
 **Bonus Points**
+
 Set up and use SASS for this lesson. Be prepared to explain exactly what was improved by your use of SASS.
