@@ -8,12 +8,12 @@ This is a set of starter files and resources for the Typography ESD at [Startup 
 
 Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javasteve99/typography-fundamentals).
 
-### Required Reading
+### Required Reading for Exercises 1 &amp; 2
 * [Thinking With Type &mdash; Anatomy](http://www.thinkingwithtype.com/contents/letter/#Anatomy)
 * [Thinking With Type &mdash; Size](http://www.thinkingwithtype.com/contents/letter/#Size)
 * [Thinking With Type &mdash; Type Classification](http://www.thinkingwithtype.com/contents/letter/#Type_Classification)
 
-### Practice
+### Practice for Exercises 1 &amp; 2
 * [Shape Type: A Letter Shaping Game](http://shape.method.ac/)
 
 ## Exercise 1
@@ -22,12 +22,12 @@ The [supplied PDF](https://github.com/freshtilledsoil/typography-and-grid-challe
 ## Exercise 2
 Choose two words and create a typographic treatment for them that visually reinforces their meaning/relationship. Start by creating at least 5 different sketched compositions of the same word pair. Pick one sketch and use any graphics editor, or pen/pencil, to develop it into a more finished and polished composition.
 
-### Required Reading
+### Required Reading for Exercise 3
 * [A List Apart &mdash; On Web Typography](http://alistapart.com/article/on-web-typography)
 * [Net Magazine &mdash; Better Web Typography in 13 Simple Steps](http://www.netmagazine.com/features/better-web-typography-few-simple-steps)
 * [Typecast Blog &mdash; Contrast Through Scale](http://typecast.com/blog/contrast-through-scale)
 
-### Advised Reading
+### Advised Reading for Exercise 3
 * [Thinking With Type &mdash; Mixing Typefaces](http://www.thinkingwithtype.com/contents/letter/#Mixing_Typefaces)
 * [Web Typography &mdash; Choose a basic leading that suits the typeface, text and measure](http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.1/)
 * [Web Typography &mdash; Add and delete vertical space in measured intervals](http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/)
@@ -36,7 +36,7 @@ Choose two words and create a typographic treatment for them that visually reinf
 * [Web Typography &mdash; Don’t compose without a scale](http://webtypography.net/Harmony_and_Counterpoint/Size/3.1.1/)
 * [iA Writer Blog &mdash; Responsive Typography: The Basics](http://ia.net/blog/responsive-typography-the-basics/)
 
-### Tools/Resources
+### Tools/Resources for Exercise 3
 * [Modular Scale](http://modularscale.com/)
 * [Google Fonts](http://www.google.com/fonts)
 
