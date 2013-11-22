@@ -2,6 +2,8 @@
 
 This is a set of starter files and resources for the Typography ESD at [Startup Institute Boston](http://startupinstitute.com/) and the Typography & Grid Challenge in the [AUX](http://www.freshtilledsoil.com/aux/) program at Fresh Tilled Soil. Students going through this lesson should fork the repo so that it shows up in the repo's network for evaluation by the instructor.
 
+Please push your repo to a gh-pages branch so it has a URL that can be shared in class on the day of the lecture.
+
 Presentation slides are hosted on [Speakerdeck](https://speakerdeck.com/javasteve99/typography-fundamentals).
 
 #### Required Reading for Exercises 1 &amp; 2
