@@ -54,7 +54,6 @@ Using the starter code in this repo, which contains typical article markup, impl
 * The grid should have at least one breakpoint. Your small-screen breakpoint should use a different number of columns than your larger-screen breakpoint.
 * Alignment of elements should demonstrate the grid in use. Do not build a 5 column grid and then stack all of your content without using the grid.
 * You must use at least 2 typefaces. The resources section links to Google Web Fonts. You can use any other service available to you, but the easiest for this exercise will be Google Web Fonts.
-* You must apply the system to a second article to demonstrate that it works properly. You will likely have to rewrite the markup of whatever article you choose to match the demo markup you've been supplied with.
 
 **Bonus Points**
 
