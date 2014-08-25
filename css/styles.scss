@@ -283,6 +283,9 @@ section {
 	figure {
 		width: 13em;
 		margin: 0 auto 2em;
+		img {
+			width: 100%;
+		}
 	}
 }
 
@@ -295,9 +298,6 @@ section {
 		img {
 			width: 100%;
 		}
-	}
-	figcaption {
-		width: 12.5em;
 	}
 }
 
@@ -364,9 +364,6 @@ footer {
 		float: none;
 		width: 50%;
 		margin: 0 auto 2em;
-		figcaption {
-			width: auto;
-		}
 	}
 	.typefaces figure {
 		float: none;

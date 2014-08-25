@@ -130,10 +130,10 @@ blockquote {
   blockquote p {
     margin: 0 0 0.5em 0;
     max-width: 100%;
-    color: #3e938f;
+    color: #2f716d;
     font-weight: 400; }
   blockquote a {
-    color: #3e938f; }
+    color: #2f716d; }
 
 figcaption {
   font-size: .875em;
@@ -222,13 +222,15 @@ section {
     /* 170px */ }
 
 .t_and_i {
-  background: #46a5a0;
+  background: #36837e;
   color: #F2F2F2; }
   .t_and_i a {
     color: #F2F2F2; }
   .t_and_i figure {
     width: 13em;
     margin: 0 auto 2em; }
+    .t_and_i figure img {
+      width: 100%; }
 
 .typefaces {
   background: #eefffe; }
@@ -238,8 +240,6 @@ section {
     margin: 3.5em 0 0 0; }
     .typefaces figure img {
       width: 100%; }
-  .typefaces figcaption {
-    width: 12.5em; }
 
 .writings {
   background: #4d4d4d;
@@ -287,8 +287,6 @@ footer {
     float: none;
     width: 50%;
     margin: 0 auto 2em; }
-    .hotel figure figcaption {
-      width: auto; }
 
   .typefaces figure {
     float: none;
