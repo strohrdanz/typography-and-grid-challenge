@@ -149,6 +149,7 @@ section {
 
 .wrapper {
   width: 76%;
+  /* 775/1024 */
   margin: 0 auto;
   max-width: 775px; }
 
