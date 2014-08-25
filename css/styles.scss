@@ -1,0 +1,455 @@
+$gray: #4D4D4D;
+$teal: #46A5A0;
+$lightteal: #EEFFFE;
+$yellow: #FFFCCC;
+$lightyellow: #FFFDF0;
+
+/* Reset Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Base Typographic Styles */
+
+body {
+	font-family: 'Lato', Georgia, sans-serif;
+	/*  font-family: Georgia, sans-serif; */  
+	font-weight: 300;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1.25em;
+	max-width: 775px;
+	line-height: 1.5;
+	margin: 0 auto 1em auto;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+cite {
+	font-style: normal;
+	font-size: 0.875em;
+	line-height: 1;
+	display: inline-block;
+
+}
+
+small {
+	font-size: 80%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #888;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	-webkit-transition-duration: 200ms;
+	-moz-transition-duration: 200ms;
+	-o-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+a:hover {
+	border-bottom: 1px solid #666;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Playfair Display', serif;  
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1em;
+	line-height: 1.5;
+	text-rendering: optimizelegibility;
+}
+
+h1 {
+	margin: 0 auto;
+	font-size: 5.5em;
+	font-weight: 900;
+	color: #CCCCCC;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 2.25em;
+	text-align: center;
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em; /* 20px */
+	font-style: normal;
+	font-weight: 700;
+}
+
+ul,
+ol {
+	max-width: 700px;
+	font-size: 1.25em;
+	padding: 0;
+	margin: 0 auto 1em auto;
+}
+
+ul ul,
+ol ul {
+	margin-bottom: 1;
+}
+
+li {
+	line-height: 1.5;
+}
+
+sub,
+sup {
+	font-size: 60%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	margin: 0 0 0 2px;
+}
+
+sup a:hover {
+	border-bottom: 1px solid #666;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+blockquote {
+	width: 80.8%; /* 825px */
+	max-width: 1000px;
+	font-style: italic;
+	font-size: 1.25em;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	margin: 3em auto 0;
+	padding: 0.382em 0 0 0;
+	p {
+		margin: 0 0 0.5em 0;
+		max-width: 100%;
+		color: darken($teal,5%);
+		font-weight: 400; 
+	}
+	a {
+		color: darken($teal,5%);
+	}
+}
+
+figcaption {
+	font-size: .875em;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: 400;
+	margin: 0;
+}
+
+/* Demo Styles - Do most of your work here. */
+
+section {
+	padding: 2em 0;
+}
+
+.wrapper {
+	width: 76%;
+	margin: 0 auto;
+	max-width: 775px;
+}
+
+.figurewrap {
+	width: 100%;
+	max-width: 775px;
+	margin: 0 auto;
+	figure {
+		width: 32.9%;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 4em;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+header {
+	text-align: center;
+	p {
+		font-size: 0.875em;
+		display: inline;
+	}
+}
+
+section {
+	padding: 6.25em 0;
+} 
+
+.intro {
+	background: $gray;
+	p {
+		font-size: 1.75em; /* 28/16 */
+		color: #F2F2F2;
+		font-weight: 300;
+	} 
+	a {
+		color: #F2F2F2;
+	}
+}                                    
+
+.intro2 {
+	background: $yellow;
+	figure {
+		float: left;
+		margin: 0 1em 4em;
+		width: 12.625em; /* 202/16 */
+		img {
+			width: 100%;
+			border: 6px solid #C9C593;
+			position: relative;
+		}
+	}
+}
+
+.life {
+	background: $lightyellow;
+}
+
+.career {
+	background: #ffffff;
+}
+
+.career2 {
+	background: $lightyellow;
+}
+
+.pullout {
+	background: $gray;
+	color: #F2F2F2;
+	a {
+		color: #F2F2F2;
+	}
+}
+
+.hotel {
+	background: $lightteal;
+	figure {
+		float: right;
+		margin: 0 3em 0 1em;
+		img {
+			width: 100%;
+		}
+	}
+	figcaption {
+		width: 10.7em; /* 170px */
+	}
+}
+
+.t_and_i {
+	background: $teal;
+		color: #F2F2F2;
+	a {
+		color: #F2F2F2;
+	}
+	figure {
+		width: 13em;
+		margin: 0 auto 2em;
+	}
+}
+
+.typefaces {
+	background: $lightteal;
+	figure {
+		width: 12.5em;
+		float: right;
+		margin: 3.5em 0 0 0;
+		img {
+			width: 100%;
+		}
+	}
+	figcaption {
+		width: 12.5em;
+	}
+}
+
+.writings {
+	background: $gray;
+	color: #F2F2F2;
+	a {
+		color: #F2F2F2;
+	}
+}
+
+.contribution {
+	background: $yellow;
+}
+
+.plife {
+	background: $lightyellow;
+	figure {
+		float: left;
+		margin: .875em 1.2em 0 0;
+	}
+	figcaption {
+		width: 200px;
+	}
+}
+
+footer {
+	background: $gray;
+	color: #F2F2F2;
+	font-size: .875em;
+	margin: 0 auto;
+	ul {
+		margin: 0 auto;
+		padding: 1em 0;
+	}
+	a {
+		color: #F2F2F2;
+	}
+}
+
+@media screen and (max-width: 910px) { 
+	.intro2 figure {
+		display: block;
+		float: none;
+		margin: 0 auto 2em;
+	}
+}
+
+@media screen and (max-width: 775px) { 
+	.figurewrap {
+		width: 80%;
+		figure {
+			width: 32.8%;
+		}
+	}
+}
+
+@media screen and (max-width: 680px) { 
+	.figurewrap figure {
+			width: 32.5%;
+	}
+
+	.hotel figure {
+		float: none;
+		width: 50%;
+		margin: 0 auto 2em;
+		figcaption {
+			width: auto;
+		}
+	}
+	.typefaces figure {
+		float: none;
+		margin: 0 auto 2em;
+	}
+}
+
+@media screen and (max-width: 480px) { 
+	body {
+		font-size: 14px;
+	}
+	.wrapper {
+		width: 90%;
+	}
+
+	h1 {
+		font-size: 4.5em;
+	}
+
+	blockquote {
+		width: 90%;
+		font-size: 1em;
+	}
+
+	ul {
+		margin: 0 0 0 1em;
+	}
+
+	.intro p {
+		font-size: 1.2em;
+	}
+	.intro2 figure {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+	.figurewrap figure {
+		display: block;
+		margin: 0 auto 2em;
+		width: 100%;
+	}
+
+	.hotel figure {
+		width: 100%;
+	}
+
+	.t_and_i figure {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+	}
+
+	.typefaces figure {
+		width: 100%;
+		img {
+			width: 100%;
+		}
+		figcaption {
+			width: 100%;
+		}
+	}
+	.plife figure {
+		width: 100%;
+		margin: 1em auto 2em;
+		img {
+			width: 100%;
+		}
+		figcaption {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) { 
+	h1 {
+		font-size: 3.5em;
+		margin: 0 0 1em 0;
+	}
+}
+
+/* Clearfix class */
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
