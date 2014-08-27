@@ -16,7 +16,7 @@ $purple: #A5A8B1;
 /* Base Typographic Styles */
 
 body {
-	font-family: 'Lato', Georgia, sans-serif;
+	font-family: 'Lato', sans-serif;
 	/*  font-family: Georgia, sans-serif; */  
 	font-weight: 300;
 	font-size: 100%;
@@ -261,14 +261,12 @@ section {
 	background: $purple;
 	figure {
 		float: right;
+		width: 25%;
 		margin: 0 3em 0 1em;
 		img {
 			width: 100%;
 			border: 1px solid darken($purple, 20%);
 		}
-	}
-	figcaption {
-		width: 10.7em; /* 170px */
 	}
 	a:hover {
 		color: #ffffff;

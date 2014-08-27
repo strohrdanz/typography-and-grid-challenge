@@ -8,7 +8,7 @@
 
 /* Base Typographic Styles */
 body {
-  font-family: 'Lato', Georgia, sans-serif;
+  font-family: 'Lato', sans-serif;
   /*  font-family: Georgia, sans-serif; */
   font-weight: 300;
   font-size: 100%;
@@ -214,13 +214,11 @@ section {
   background: #a5a8b1; }
   .hotel figure {
     float: right;
+    width: 25%;
     margin: 0 3em 0 1em; }
     .hotel figure img {
       width: 100%;
       border: 1px solid #6f7481; }
-  .hotel figcaption {
-    width: 10.7em;
-    /* 170px */ }
   .hotel a:hover {
     color: #ffffff; }
 
