@@ -50,6 +50,7 @@ a {
   transition-duration: 200ms; }
 
 a:hover {
+  color: #009E7C;
   border-bottom: 1px solid #666;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
 
@@ -220,6 +221,8 @@ section {
   .hotel figcaption {
     width: 10.7em;
     /* 170px */ }
+  .hotel a:hover {
+    color: #ffffff; }
 
 .t_and_i {
   background: #c0c2c9; }
@@ -229,6 +232,8 @@ section {
     .t_and_i figure img {
       width: 100%;
       border: 1px solid #6f7481; }
+    .t_and_i figure a:hover {
+      color: ffffff; }
 
 .typefaces {
   background: #dcdde0; }

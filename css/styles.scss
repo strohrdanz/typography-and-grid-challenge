@@ -66,6 +66,7 @@ a {
 }
 
 a:hover {
+	color: #009E7C;
 	border-bottom: 1px solid #666;
 	border-bottom: 1px solid rgba(0,0,0,0.4);
 }
@@ -269,6 +270,9 @@ section {
 	figcaption {
 		width: 10.7em; /* 170px */
 	}
+	a:hover {
+		color: #ffffff;
+	}
 }
 
 .t_and_i {
@@ -279,6 +283,9 @@ section {
 		img {
 			width: 100%;
 			border: 1px solid darken($purple,20%);
+		}
+		a:hover {
+			color: ffffff;
 		}
 	}
 }
