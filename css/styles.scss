@@ -1,8 +1,6 @@
 $gray: #4D4D4D;
-$teal: #36837E;
-$lightteal: #EEFFFE;
-$yellow: #FFFCCC;
-$lightyellow: #FFFDF0;
+$yellow: #E4E3C2;
+$purple: #A5A8B1;
 
 /* Reset Styles */
 
@@ -90,7 +88,7 @@ h1 {
 	margin: 0 auto;
 	font-size: 5.5em;
 	font-weight: 900;
-	color: #CCCCCC;
+	color: #f2f2f2;
 	line-height: 1.2;
 }
 
@@ -158,11 +156,11 @@ blockquote {
 	p {
 		margin: 0 0 0.5em 0;
 		max-width: 100%;
-		color: darken($teal,5%);
+		color: darken($purple,20%);
 		font-weight: 400; 
 	}
 	a {
-		color: darken($teal,5%);
+		color: darken($purple,20%);
 	}
 }
 
@@ -170,7 +168,7 @@ figcaption {
 	font-size: .875em;
 	font-style: italic;
 	text-align: center;
-	line-height: 1.1;
+	line-height: 1.5;
 	font-weight: 400;
 	margin: 0;
 }
@@ -187,22 +185,8 @@ section {
 	max-width: 775px;
 }
 
-.figurewrap {
-	width: 100%;
-	max-width: 775px;
-	margin: 0 auto;
-	figure {
-		width: 32.9%;
-		display: inline-block;
-		vertical-align: top;
-		margin-top: 4em;
-		img {
-			width: 100%;
-		}
-	}
-}
-
 header {
+	background: lighten($yellow, 10%);
 	text-align: center;
 	p {
 		font-size: 0.875em;
@@ -230,43 +214,56 @@ section {
 	background: $yellow;
 	figure {
 		float: left;
-		margin: 0 1em 4em;
-		width: 12.625em; /* 202/16 */
+		margin: 0 1em;
+		width: 25%;
 		img {
 			width: 100%;
-			border: 6px solid #C9C593;
+			border: 1px solid #C9C593;
 			position: relative;
 		}
 	}
 }
 
 .life {
-	background: $lightyellow;
+	background: lighten($yellow, 5%);
 }
 
 .career {
-	background: #ffffff;
+	background: lighten($yellow, 8%);
 }
 
 .career2 {
-	background: $lightyellow;
+	background: lighten($yellow, 12%);
 }
 
 .pullout {
-	background: $gray;
-	color: #F2F2F2;
-	a {
-		color: #F2F2F2;
+	background: #ffffff;
+}
+
+.figurewrap {
+	width: 100%;
+	max-width: 775px;
+	margin: 0 auto;
+	figure {
+		width: 32.9%;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 4em;
+		img {
+			width: 100%;
+			border: 1px solid $purple;
+		}
 	}
 }
 
 .hotel {
-	background: $lightteal;
+	background: $purple;
 	figure {
 		float: right;
 		margin: 0 3em 0 1em;
 		img {
 			width: 100%;
+			border: 1px solid darken($purple, 20%);
 		}
 	}
 	figcaption {
@@ -275,49 +272,45 @@ section {
 }
 
 .t_and_i {
-	background: $teal;
-		color: #F2F2F2;
-	a {
-		color: #F2F2F2;
-	}
+	background: lighten($purple, 10%);
 	figure {
 		width: 13em;
 		margin: 0 auto 2em;
 		img {
 			width: 100%;
+			border: 1px solid darken($purple,20%);
 		}
 	}
 }
 
 .typefaces {
-	background: $lightteal;
+	background: lighten($purple, 20%);
 	figure {
 		width: 12.5em;
-		float: right;
-		margin: 3.5em 0 0 0;
+		margin: 0 auto 1em auto;
 		img {
 			width: 100%;
+			border: 1px solid $purple;
 		}
 	}
 }
 
 .writings {
-	background: $gray;
-	color: #F2F2F2;
-	a {
-		color: #F2F2F2;
-	}
+	background: lighten($purple, 25%);
 }
 
 .contribution {
-	background: $yellow;
+	background: lighten($purple, 30%);
 }
 
 .plife {
-	background: $lightyellow;
+	background: #ffffff;
 	figure {
 		float: left;
-		margin: .875em 1.2em 0 0;
+		margin: 1.5em 1.2em 0 0;
+		img {
+			border: 1px solid $purple;
+		}
 	}
 	figcaption {
 		width: 200px;
