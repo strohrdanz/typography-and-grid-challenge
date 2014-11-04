@@ -1,5 +1,13 @@
 # Typography & Grid Challenge
 
+For this challenge, I was given the Wikipedia article on Eric Gill and was tasked with making a grid layout and choosing some great typography for it. Below are the official instruction I was given. I only needed to read through the resources and complete the last exercise.
+
+See it here: http://strohrdanz.github.io/typography-and-grid-challenge/
+
+Read more about my type choices here: http://stephanierohrdanz.com/type.php
+
+#The Official Instructions
+
 This is a set of starter files and resources for the Typography ESD at [Startup Institute Boston](http://startupinstitute.com/) and the Typography & Grid Challenge in the [AUX](http://www.freshtilledsoil.com/aux/) program at Fresh Tilled Soil. Students going through this lesson should fork the repo so that it shows up in the repo's network for evaluation by the instructor.
 
 Please push your repo to a gh-pages branch so it has a URL that can be shared in class on the day of the lecture.
